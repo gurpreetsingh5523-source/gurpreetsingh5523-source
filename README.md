@@ -9,6 +9,8 @@
 
 [![GitHub Followers](https://img.shields.io/github/followers/gurpreetsingh5523-source?style=for-the-badge&logo=github&color=blue)](https://github.com/gurpreetsingh5523-source)
 [![GitHub Stars](https://img.shields.io/github/stars/gurpreetsingh5523-source/Amrit-god-mode-ai?style=for-the-badge&logo=github&color=yellow)](https://github.com/gurpreetsingh5523-source/Amrit-god-mode-ai)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Nam--toon--studio-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/Nam-toon-studio)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Gurpreet%20Singh-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/feed/)
 
 </div>
 
@@ -33,6 +35,17 @@ An autonomous scientific discovery and medical research engine designed to synth
 
 #### 🎵 [AI DJ STUDIO](https://github.com/gurpreetsingh5523-source/Ai_Dj_studio)
 An interactive AI-powered creative engine that creates music and generates beats.
+
+---
+
+### ☬ Sovereign Foundation Models ([Nam-toon Studio](https://huggingface.co/Nam-toon-studio))
+
+Open-source Punjabi & Indic AI models and datasets on Hugging Face (1,300+ total downloads):
+
+*   🧠 **[Sahaj-86M (Causal LM / State-Space Model)](https://huggingface.co/Nam-toon-studio/sahaj-86m)**: 86M parameter Gurmukhi/Punjabi foundation model trained on high-density reasoning, STEM CoT, and philosophy corpora with BPE tokenization.
+*   ⚡ **[Sahaj-30M (Edge & On-Device LM)](https://huggingface.co/Nam-toon-studio/sahaj-30m)**: 30.6M parameter byte-level causal LM achieving **0.149 Bits-Per-Byte (BPB)** with sub-millisecond edge latency (~115MB RAM).
+*   🎙️ **[Punjabi Studio TTS Voices](https://huggingface.co/Nam-toon-studio/punjabi-tts-voices)**: High-fidelity Piper / VITS ONNX neural voice synthesis models.
+*   📚 **[Frontier Gurmukhi Datasets](https://huggingface.co/Nam-toon-studio)**: Mahan Kosh Lexical Corpus, Punjabi STEM CoT, and Punjab Heritage Theological Corpus.
 
 ---
 
@@ -61,6 +74,11 @@ An interactive AI-powered creative engine that creates music and generates beats
 ---
 
 <div align="center">
+
+**Connect & Collaborate:**  
+[GitHub](https://github.com/gurpreetsingh5523-source) · [Hugging Face (Nam-toon Studio)](https://huggingface.co/Nam-toon-studio) · [LinkedIn](https://www.linkedin.com/feed/) · `gurpreetsingh5523@gmail.com`
+
+<br/>
 
 **☬ ਵਾਹਿਗੁਰੂ ਜੀ ਕਾ ਖ਼ਾਲਸਾ ॥ ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫ਼ਤਹਿ ॥**
 
