@@ -40,12 +40,21 @@ An interactive AI-powered creative engine that creates music and generates beats
 
 ### ☬ Sovereign Foundation Models ([Nam-toon Studio](https://huggingface.co/Nam-toon-studio))
 
-Open-source Punjabi & Indic AI models and datasets on Hugging Face (1,300+ total downloads):
+Punjabi-first models trained **from scratch on a laptop** (Apple Silicon). Numbers below are the ones
+measured on each model card — small models are fluent in Punjabi but still weak on facts.
 
-*   🧠 **[Sahaj-86M (Causal LM / State-Space Model)](https://huggingface.co/Nam-toon-studio/sahaj-86m)**: 86M parameter Gurmukhi/Punjabi foundation model trained on high-density reasoning, STEM CoT, and philosophy corpora with BPE tokenization.
-*   ⚡ **[Sahaj-30M (Edge & On-Device LM)](https://huggingface.co/Nam-toon-studio/sahaj-30m)**: 30.6M parameter byte-level causal LM achieving **0.149 Bits-Per-Byte (BPB)** with sub-millisecond edge latency (~115MB RAM).
-*   🎙️ **[Punjabi Studio TTS Voices](https://huggingface.co/Nam-toon-studio/punjabi-tts-voices)**: High-fidelity Piper / VITS ONNX neural voice synthesis models.
-*   📚 **[Frontier Gurmukhi Datasets](https://huggingface.co/Nam-toon-studio)**: Mahan Kosh Lexical Corpus, Punjabi STEM CoT, and Punjab Heritage Theological Corpus.
+*   🙏 **[Sevak-97M Sovereign](https://huggingface.co/Nam-toon-studio/sevak-97m-sovereign)**: 97.2M-parameter Punjabi + English LM (16K Gurmukhi BPE). 14.7% on a decontaminated 143-question Punjabi factual test — honest about its hallucinations.
+*   🌱 **[Sevak-24M Sovereign v2](https://huggingface.co/Nam-toon-studio/sevak-24m-sovereign)**: smallest Sevak (29.0M parameters released), same recipe; 8.4% on the same test.
+*   🧠 **[Sahaj-86M](https://huggingface.co/Nam-toon-studio/sahaj-86m)**: 86M hybrid selective-SSM + attention Punjabi LM with a retrieval (RAG) layer and a confidence/abstention probe — 12% factual QA unaided, ~40% with retrieval.
+*   ⚡ **[Sahaj-30M](https://huggingface.co/Nam-toon-studio/sahaj-30m)**: ~29.6M byte-level experimental Punjabi LM (no tokenizer). Early research model, not yet benchmarked.
+*   📚 **[Gurmukhi datasets](https://huggingface.co/Nam-toon-studio)**: grammar correction, Gurbani / Mahan Kosh study corpus, Punjabi STEM chain-of-thought, synthetic Punjabi TTS speech — see each card for how the data was made.
+
+### 🧪 Sevak-Hybrid — small models, big-model results
+
+**[Sevak-Hybrid](https://github.com/gurpreetsingh5523-source/sevak-hybrid)** ([HF](https://huggingface.co/Nam-toon-studio/sevak-hybrid)): a router of 1.5–2B open Qwen
+specialists plus adaptive test-time compute that **matches Microsoft's Phi-4-mini (3.8B)** on held-out
+GSM8K (93.5% vs 92.5%), MMLU (71.3% vs 70.7%) and HumanEval (59% vs 56%), every system run in the same
+harness on one laptop. A system, not a new model — no weights trained; gaps are within noise.
 
 ---
 
