@@ -25,16 +25,13 @@ I am a software engineer and AI researcher specializing in **autonomous agent ar
 ### ☬ Featured Autonomous Systems
 
 #### 🤖 [AMRIT GODMODE v3.1](https://github.com/gurpreetsingh5523-source/Amrit-god-mode-ai)
-An autonomous, local multi-agent system comprising **19 specialized worker agents** synced via an asynchronous event bus and DAG task scheduler.
-*   **Self-Evolution Pipeline**: Auto-scans python files, runs unit tests (121/121 passing), refactors modules, and applies updates in a secure sandbox.
+An autonomous, local multi-agent system comprising **22 specialist agents** synced via an asynchronous event bus and DAG task scheduler.
+*   **Self-Evolution Pipeline**: Auto-scans python files, runs its test suite (109 tests passing), refactors modules, and applies updates in a secure sandbox.
 *   **Multimodal Capabilities**: Integrates Whisper-based voice (STT/TTS) and vision agents.
-*   **Punjabi NLP**: Locally fine-tuned Gurmukhi model adapters and ethical guardrails (*Dharam, Sach, Daya*).
+*   **Punjabi NLP & guardrails**: Gurmukhi-aware prompts and ethical guardrails (*Dharam, Sach, Daya*).
 
 #### 🔬 [AMRIT RESEARCH OS v4.5](https://github.com/gurpreetsingh5523-source/-AMRIT-RESEARCH-OS-v4.5)
 An autonomous scientific discovery and medical research engine designed to synthesize hypotheses, simulate scenarios, parse arXiv & PubMed databases, and draft comprehensive papers.
-
-#### 🎵 [AI DJ STUDIO](https://github.com/gurpreetsingh5523-source/Ai_Dj_studio)
-An interactive AI-powered creative engine that creates music and generates beats.
 
 ---
 
